@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-image: url("./components/seares.jpg") ;
+  background-repeat: no-repeat;
+  font-family: 'Lobster', cursive;
 }
 
 .App-logo {
@@ -11,6 +14,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+h1{
+  color: white;
 }
 
 .App-header {
@@ -35,4 +42,84 @@
   to {
     transform: rotate(360deg);
   }
+}
+.outer_div{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 25% 25% 25% 25%;
+  justify-content: center;
+  
+}
+.card{
+  margin: 0 10%;
+  margin-top: 10%;
+  background-color: cornflowerblue ;
+  padding:8% 4% 0 4%;
+  border-radius: 10px;
+  color: white;
+  width: 370px;
+  border:5px solid black;
+}
+.card:hover{
+  margin: 0 10%;
+  margin-top: 10%;
+  background-color: cornflowerblue ;
+  padding:8% 4% 0 4%;
+  border-radius: 10px;
+  color: white;
+  width: 370px;
+  border:5px solid black;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.card_title{
+  text-align: center;
+  width: 100%;
+  height: 10%;
+  margin-top: -30px;
+}
+.image_div{
+  padding:2%;
+  height: 100%;
+}
+.card_image{
+  width: 100%;
+  height: 90%;
+  border-radius: 10px;
+}
+.card_image:hover{
+  width: 100%;
+  height: 90%;
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+ } 
+.card_description{
+  text-align: center;
+  font-size: 0.5em;
+  height: 10%;
+  display: none;
+  position: absolute;
+  width: 23%;
+  margin-top: -6%;
+  background-color: rgba(0, 0, 0,0.4);
+}
+.card_description_visible{
+  text-align: center;
+  height: 17%;
+  position: absolute;
+  width: 21.1%;
+  margin-top: -11%;
+  margin-left: 7px;
+  background-color: rgba(0, 0, 0,0.4);
+  padding-top: 20px;
+  align-items: center;
+  border-radius: 10px;
+
+}
+.card-body{
+  width: 100%;
+  height: 80%;
+  
+}
+.card-description-script{
+  font-size: 0.8em;
 }
