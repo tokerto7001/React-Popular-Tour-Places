@@ -41,9 +41,9 @@ export const Blog = () => {
                                         
                                     />
                                 </div>
-                                <p id={element.id} className= {visible && id == element.id ? "card_description_visible" : "card_description"} style={{fontSize:"0.8em"}} >
+                                <div id={element.id} className= {visible && id == element.id ? "card_description_visible" : "card_description"} style={{fontSize:"0.8em"}} >
                                     {element.desc}
-                                </p>
+                                </div>
                             </div>
                         </div>
 
