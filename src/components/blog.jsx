@@ -19,7 +19,7 @@ export const Blog = () => {
     }
    
     return (
-
+        <div>
         <div className="outer_div">
             {
                 data.map((element, index) => {
@@ -41,9 +41,9 @@ export const Blog = () => {
                                         
                                     />
                                 </div>
-                                <div id={element.id} className= {visible && id == element.id ? "card_description_visible" : "card_description"} style={{fontSize:"0.8em"}} >
+                                <p id={element.id} className= {visible && id == element.id ? "card_description_visible" : "card_description"} style={{fontSize:"0.8em"}} >
                                     {element.desc}
-                                </div>
+                                </p>
                             </div>
                         </div>
 
@@ -52,7 +52,7 @@ export const Blog = () => {
                 })
             }
         </div>
-
+        </div>
     )
 
 
