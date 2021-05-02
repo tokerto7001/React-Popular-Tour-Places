@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
          <Header/>
-         <h1>Popular Tour Places</h1>
+         <h1 className="app-title" >Popular Tour Places</h1>
          <Blog /> 
     </div>
   );
