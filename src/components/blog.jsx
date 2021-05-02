@@ -11,10 +11,11 @@ export const Blog = () => {
         <div className="outer_div">
             {
                 data.map((element) => {
-                    return <Card
+                            <Card
                             title = {element.title}
                             image = {element.image}
                             description = {element.desc}
+                            key={element.id}
                             />
                 })
 
