@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Popular-Tour-Places/static/css/main.cd000034.chunk.css",
-    "main.js": "/React-Popular-Tour-Places/static/js/main.fcc6a8d4.chunk.js",
-    "main.js.map": "/React-Popular-Tour-Places/static/js/main.fcc6a8d4.chunk.js.map",
+    "main.js": "/React-Popular-Tour-Places/static/js/main.9490fe8b.chunk.js",
+    "main.js.map": "/React-Popular-Tour-Places/static/js/main.9490fe8b.chunk.js.map",
     "runtime-main.js": "/React-Popular-Tour-Places/static/js/runtime-main.7440fbbd.js",
     "runtime-main.js.map": "/React-Popular-Tour-Places/static/js/runtime-main.7440fbbd.js.map",
     "static/js/2.d679dcbe.chunk.js": "/React-Popular-Tour-Places/static/js/2.d679dcbe.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.7440fbbd.js",
     "static/js/2.d679dcbe.chunk.js",
     "static/css/main.cd000034.chunk.css",
-    "static/js/main.fcc6a8d4.chunk.js"
+    "static/js/main.9490fe8b.chunk.js"
   ]
 }
