@@ -12,7 +12,7 @@ export const Card = ({title, image, description}) => {
         setVisible(false)
     }
     
-    console.log("rerender");
+    
     return (
 
         <div className="card"   >

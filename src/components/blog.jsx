@@ -5,17 +5,17 @@ import { Card } from "./card"
 export const Blog = () => {
 
     
-   console.log("rerender");
+   console.log(data);
     return (
         <div>
         <div className="outer_div">
             {
                 data.map((element) => {
-                            <Card
-                            title = {element.title}
-                            image = {element.image}
-                            description = {element.desc}
+                    return <Card
+                            title={element.title}
                             key={element.id}
+                            description={element.desc}
+                            image = {element.image}
                             />
                 })
 
