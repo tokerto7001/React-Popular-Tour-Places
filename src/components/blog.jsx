@@ -17,7 +17,7 @@ export const Blog = () => {
     const handle = (e) => {
         setId(e.target.id)
     }
-   
+   console.log("rerender");
     return (
         <div>
         <div className="outer_div">
